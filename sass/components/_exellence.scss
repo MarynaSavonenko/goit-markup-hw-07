@@ -1,0 +1,62 @@
+.excellence{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.excellence__title{
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+}
+.excellence__container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.excellence__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    list-style: none;
+}
+.excellence__list>li{
+    min-width: 270px;
+    min-height: 101px;
+}
+.excellence__list>li:not(:last-child){
+    margin-right: 30px;
+}
+.excellence__title-secondary{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14em;
+    text-transform: uppercase;
+    color: $title-color;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.excellence__text{
+    font-size: 14px;
+    line-height: 1.71em;
+    color: $primary-text-color;
+    margin: 0%;
+}
+.excellence__decoration{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $section-team-color;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.excellence__icon{
+    width: 70px;
+    height: 70px;
+    fill: $title-color;
+}

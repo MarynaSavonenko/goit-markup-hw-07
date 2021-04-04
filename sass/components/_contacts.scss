@@ -1,0 +1,21 @@
+.contacts-element{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+    color: currentColor;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition:  $transition;
+    &:hover, &:focus{
+        color: $accent-color;
+    }
+}
+
+.contacts-element:focus>.header__icon1{
+    color: var(--accent-color);
+}
+.contacts-element:hover>.header__icon1{
+    color: var(--accent-color);
+}
